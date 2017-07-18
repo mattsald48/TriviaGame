@@ -1,0 +1,86 @@
+.container{
+	width:100%;
+	height: 100%;
+	margin: auto;
+	
+
+}
+
+.main{
+	width: 100%;
+	height: 980px;
+	background-image: url("../images/starwars.jpg");
+	color: white;
+    text-align: center;
+    list-style-type: none;
+    font-size: 16px;
+    text-shadow: -1px 0 #000000,0 1px #000000,1px 0 #000000,0 -1px #000000;
+    
+}
+
+#mainP1, #mainP2, #mainP3{
+
+	display: none;
+   
+}
+
+.floater{
+	height: 30%;
+}
+
+#timer{
+	width: 75%;
+	margin:auto;
+}
+
+#qAndA{
+	width: 75%;
+	margin: auto;
+}
+
+#update{
+	width: 80%;
+	margin:auto;
+}
+
+.choices {
+	background-color: teal; 
+    border: solid black;
+    color: white;
+    padding: 15px 32px;
+    margin: 5px;
+    width: 400px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    list-style-type: none;
+    font-size: 16px;
+    text-shadow: -1px 0 #000000,0 1px #000000,1px 0 #000000,0 -1px #000000;
+}
+
+.startButton {
+	background-color: teal; 
+    border: solid black;
+    color: white;
+    padding: 15px 32px;
+    margin: 5px;
+    width: 400px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    list-style-type: none;
+    font-size: 24px;
+    text-shadow: -1px 0 #000000,0 1px #000000,1px 0 #000000,0 -1px #000000;
+}
+
+ul {
+ list-style: none;
+}
+
+button:hover{
+   opacity: 0.5;
+}
+
+#question1, #question2, #question3, #question4, #question5, #question6, #question7, #question8, #question9, #question10{
+	display: none;
+}
